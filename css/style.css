@@ -1,0 +1,30 @@
+/* Utils */
+
+.debug .border{
+border: 1px solid black;
+}
+
+body{
+font-family: sans-serif;
+}
+
+section{
+margin-bottom: 20px;
+color: white;
+font-size: 13px;
+}
+
+.row > [class^='col']{
+min-height: 40px;
+background-color: #006cfa;
+border: 1px solid white;
+}
+
+h1{
+color: black;
+}
+
+.row .nested{
+background-color: #00e166;
+border: 1px solid #006cfa;
+}
